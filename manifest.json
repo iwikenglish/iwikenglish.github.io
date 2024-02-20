@@ -1,6 +1,6 @@
 {
-    "name": "iwikweb",
-    "short_name": "iwikweb",
+    "name": "cmsiwik",
+    "short_name": "cmsiwik",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
