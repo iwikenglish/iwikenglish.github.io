@@ -15,11 +15,16 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
+  <!-- <base href="/"> -->
   <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+<<<<<<< HEAD
   <meta name="description" content="Internal IWIK management">
+=======
+  <meta name="description" content="A new Flutter project.">
+>>>>>>> b42bf1f995eb1c7496ff61c9aa29bf4bb2fe9aa9
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
   <!-- iOS meta tags & icons -->
@@ -31,18 +36,65 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
+<<<<<<< HEAD
   <title>CMS - IWIK The House Of English</title>
+=======
+  <title>IWIK The House Of English</title>
+>>>>>>> b42bf1f995eb1c7496ff61c9aa29bf4bb2fe9aa9
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
+<<<<<<< HEAD
     const serviceWorkerVersion = "3173778108";
+=======
+    const serviceWorkerVersion = "1807806852";
+>>>>>>> b42bf1f995eb1c7496ff61c9aa29bf4bb2fe9aa9
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
+  <!-- <style>
+    body {
+      height: 500vh !important;
+      /* Bigger than 100% to allow scroll */
+      position: static !important;
+      /* Override absolute from flutter */
+      overflow-y: scroll !important;
+      /* Allows verticall scrolling */
+      overflow-x: hidden !important;
+      touch-action: pan-y !important;
+      /* Allows vertical scrolling */
+      overscroll-behavior: none;
+      /* Avoid bouncing scrolling on top/bottom edget */
+    }
+
+    /* Centers flutter canvas with a size of the viewport*/
+    flt-glass-pane {
+      position: fixed !important;
+      /* Overrides absolute from flutter  */
+      top: 50vh !important;
+      left: 50vw !important;
+      max-width: 100vw !important;
+      max-height: 100vh !important;
+      transform: translate(-50vw, -50vh) !important;
+    }
+
+    /* 
+    Scrollbar hide doesn't work on iOS, they add a default one when overflow:true and  -webkit-overflow-scrolling: touch; 
+    Sadly since iOS 13, this value is forced on iOS -> https://developer.apple.com/documentation/safari-release-notes/safari-13-release-notes
+    */
+    ::-webkit-scrollbar {
+      display: false;
+      width: 0px;
+      height: 0px;
+      /* Remove scrollbar space */
+      background: transparent;
+      /* Optional: just make scrollbar invisible */
+    }
+  </style> -->
   <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
@@ -61,7 +113,11 @@
       });
     });
   </script>
+<<<<<<< HEAD
   <!-- <script type="module">
+=======
+  <script type="module">
+>>>>>>> b42bf1f995eb1c7496ff61c9aa29bf4bb2fe9aa9
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
@@ -83,7 +139,11 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+<<<<<<< HEAD
   </script> -->
+=======
+  </script>
+>>>>>>> b42bf1f995eb1c7496ff61c9aa29bf4bb2fe9aa9
 </body>
 
 </html>
